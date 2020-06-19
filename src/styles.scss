@@ -21,6 +21,8 @@ $turquoise-12: rgb(93, 217, 210);//#5dd9d2
 body{
     font-family: lato;
     min-width: 320px;
+    
+    
     background: $turquoise-1; /* Old browsers */
 
     background: 
@@ -77,7 +79,9 @@ body{
         GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-
+.container-fluid{
+    max-width: 1440px;
+}
 @media (min-width: 992px)
 {
     .container-lg, .container-md, .container-sm, .container {
