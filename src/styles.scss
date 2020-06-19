@@ -1,90 +1,25 @@
+@import "shared-styles.scss";
 @font-face {
     font-family: lato;
     src: url(assets/fonts/Lato-Regular.ttf) format('truetype');
   }
 
-$turquoise-1: rgb(91, 217, 209);//#5bd9d1
-$turquoise-2: rgb(96, 218, 211);//#60dad3
-$turquoise-3: rgb(112, 223, 216);//#70dfd8
-$turquoise-4: rgb(138, 231, 226);//#8ae7e2
-$turquoise-5: rgb(174, 242, 239);//#aef2ef
-$turquoise-6: rgb(215, 255, 255);//#d7ffff
-$turquoise-7: rgb(203, 251, 250);//#cbfbfa
-$turquoise-8: rgb(169, 240, 237);//#a9f0ed
-$turquoise-9: rgb(140, 232, 227);//#8ce8e3
-$turquoise-10: rgb(118, 225, 219);//#76e1db
-$turquoise-11: rgb(103, 220, 213);//#67dcd5
-$turquoise-12: rgb(93, 217, 210);//#5dd9d2
-
-
-
 body{
     font-family: lato;
     min-width: 320px;
-    
-    
-    background: $turquoise-1; /* Old browsers */
 
-    background: 
-    -moz-radial-gradient(center, ellipse cover,
-        $turquoise-1 0%, 
-        $turquoise-2 7.37%, 
-        $turquoise-3 16.73%, 
-        $turquoise-4 27.15%, 
-        $turquoise-5 38.27%, 
-        $turquoise-6 48.76%, 
-        $turquoise-7 50.59%, 
-        $turquoise-8 56.84%, 
-        $turquoise-9 63.52%, 
-        $turquoise-10 70.64%, 
-        $turquoise-11 78.42%, 
-        $turquoise-12 87.34%, 
-        $turquoise-1 100%); /* FF3.6-15 */
-
-    background: 
-    -webkit-radial-gradient(center, ellipse cover,
-        $turquoise-1 0%, 
-        $turquoise-2 7.37%, 
-        $turquoise-3 16.73%, 
-        $turquoise-4 27.15%, 
-        $turquoise-5 38.27%, 
-        $turquoise-6 48.76%, 
-        $turquoise-7 50.59%, 
-        $turquoise-8 56.84%, 
-        $turquoise-9 63.52%, 
-        $turquoise-10 70.64%, 
-        $turquoise-11 78.42%, 
-        $turquoise-12 87.34%, 
-        $turquoise-1 100%); /* Chrome10-25,Safari5.1-6 */
-
-    background: 
-    radial-gradient(ellipse at center,
-        $turquoise-1 0%, 
-        $turquoise-2 7.37%, 
-        $turquoise-3 16.73%, 
-        $turquoise-4 27.15%, 
-        $turquoise-5 38.27%, 
-        $turquoise-6 48.76%, 
-        $turquoise-7 50.59%, 
-        $turquoise-8 56.84%, 
-        $turquoise-9 63.52%, 
-        $turquoise-10 70.64%, 
-        $turquoise-11 78.42%, 
-        $turquoise-12 87.34%, 
-        $turquoise-1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-    filter: progid:DXImageTransform.Microsoft.gradient( 
-        startColorstr=$turquoise-1, 
-        endColorstr=$turquoise-12,
-        GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-.container-fluid{
-    max-width: 1440px;
-}
 @media (min-width: 992px)
 {
     .container-lg, .container-md, .container-sm, .container {
         max-width: 904.53px;
     }
+}
+
+@media (min-width: 1440px)
+{
+    .container-fluid{
+        height: 101%;
+      }
 }

@@ -1,0 +1,66 @@
+@import "../../../shared-styles.scss";
+.btn{
+
+    background: linear-gradient($green-2 0%, $green-3 100%);
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    line-height: 36px;
+    text-align: center;
+    color: $white-1;
+    padding: 4px 85px 3px 85px;
+    border-radius: 0px;
+}
+.contenedor-listado-ces{
+    overflow: auto;
+}
+.contenedor-marca{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+}
+.cuerpo{
+    background-color: $white-1;
+}
+.img-marca{
+    width: 85%;
+}
+.marcas{
+    padding: 15px 0px;
+    border-top: 1px solid $gray-2;
+    border-bottom: 1px solid $gray-2;
+}
+.mensaje-1{
+    max-width: 638px;
+    font-size: 28.31px;
+    letter-spacing: 0.05em;
+    line-height: 33.98px;
+    text-align: center;
+    color: $gray-1;
+    padding: 60px 0px;
+}
+.mensaje-2{
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    line-height: 28.8px;
+    text-align: center;
+    color: $gray-1; 
+    padding: 70px 0px;  
+}
+.mensaje-3{
+    font-size: 28.31px;
+    letter-spacing: 0.05em;
+    line-height: 33.98px;
+    text-align: center;
+    color: $gray-1;
+    padding: 65px 0px 40px 0px;
+}
+@media (min-width: 576px) and (max-width: 992px){
+    .mensaje-1{
+        font-size: 150%;   
+    }
+}
+@media (max-width: 575px){
+    .mensaje-1{
+        font-size: 120%; 
+    }
+}
