@@ -107,6 +107,14 @@ app-listado-ces{
     max-height: 378px;
     margin-left: 0px;
   }
+  @media (min-width: 768px)
+  {
+    .contenedor-mapa-ces{
+
+      padding-left: 20px;
+
+    }   
+  }
   @media (min-width: 576px) and (max-width: 767px)
   {
     .form-check-label{
