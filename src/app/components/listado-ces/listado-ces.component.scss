@@ -1,0 +1,105 @@
+@import "../../../shared-styles.scss";
+@font-face {
+    font-family: FontAwesome;
+    src: url(../../../assets/fonts/fa-regular-400.ttf) format('truetype');
+  }
+app-listado-ces{
+  width: 100%;
+}
+.contenedor-listado-ces{
+    padding: 0px;
+}
+.form-check {
+    display: block;
+    margin-top: 15px;
+}
+.list-header{
+    background: linear-gradient($green-2 0%, $green-3 100%);
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    line-height: 28.8px;
+    color: $white-1;
+    padding: 9px; 
+    display: flex;
+    justify-content: center;
+}
+.list-ces{
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    line-height: 28.8px;
+    text-align: left;
+    color: $gray-1;
+    overflow: auto; 
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 331.74px;
+    background: transparent;
+    border: 1px solid $gray-1;
+    border-top: none;
+    padding: 0px 10px 10px;
+}
+
+.checkbox {
+    padding-left: 20px;
+  }
+  .checkbox label {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 5px;
+  }
+  .checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0;
+    margin-left: -20px;
+    border: 1px solid $gray-2;
+    border-radius: 3px;
+    background-color: $white-1;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+  }
+  .checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    margin-left: -20px;
+    padding-top: 1px;
+    color: $gray-1;
+  }
+  .checkbox input[type="checkbox"] {
+    opacity: 0;
+    z-index: 1;
+    width: 28px;
+    height: 28px;
+  }
+
+  .checkbox input[type="checkbox"]:checked + label::after {
+
+    content: url(../../../assets/img/check.svg);
+    border-radius: 7.5px;
+    border: none;
+  }
+
+  .checkbox.checkbox-sm label::before {
+    width: 28px;
+    height: 28px;
+    top: 0px;
+    border-radius: 7.5px;
+  }
+  .checkbox.checkbox-sm label::after {
+    width: 28px;
+    height: 28px;
+    padding-left: 4px;
+    font-size: 20px;
+    left: 0px;
+    top: 0px;
+    background-color: #2074EF;
+  }
+  .checkbox.checkbox-sm label {
+    padding-left: 18px;
+    top: 0px;
+  }

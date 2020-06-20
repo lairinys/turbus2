@@ -1,0 +1,7 @@
+{
+    "/api/*":{
+        "target": "http://suzukimotos.cl",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}

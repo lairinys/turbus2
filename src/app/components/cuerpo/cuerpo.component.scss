@@ -10,14 +10,13 @@
     padding: 4px 85px 3px 85px;
     border-radius: 0px;
 }
-.contenedor-listado-ces{
-    overflow: auto;
-}
+
 .contenedor-marca{
     padding: 15px 0px;
     display: flex;
     justify-content: center;
 }
+
 .cuerpo{
     background-color: $white-1;
 }
@@ -53,6 +52,9 @@
     text-align: center;
     color: $gray-1;
     padding: 65px 0px 40px 0px;
+}
+.selector-ces{
+    max-height: 378px;
 }
 @media (min-width: 576px) and (max-width: 992px){
     .mensaje-1{
