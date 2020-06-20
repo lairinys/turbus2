@@ -103,3 +103,43 @@ app-listado-ces{
     padding-left: 18px;
     top: 0px;
   }
+  .selector-ces{
+    max-height: 378px;
+    margin-left: 0px;
+  }
+  @media (min-width: 576px) and (max-width: 767px)
+  {
+    .form-check-label{
+          font-size: 70%;
+        }
+    .list-header{
+      font-size: 90%;
+    }
+    .contenedor-mapa-ces{
+      height: 300px;
+      padding: 0px;
+      margin-top: 20px;
+    }
+    .contenedor-listado-ces{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  @media (max-width: 575px)
+  {
+    .form-check-label, .list-header{
+          font-size: 60%;
+    }
+    .list-header{
+      font-size: 80%;
+    }
+    .contenedor-mapa-ces{
+      height: 300px;
+      padding: 0px;
+      margin-top: 20px;
+    }
+    .contenedor-listado-ces{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }

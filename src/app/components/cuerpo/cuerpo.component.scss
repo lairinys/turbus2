@@ -53,16 +53,26 @@
     color: $gray-1;
     padding: 65px 0px 40px 0px;
 }
-.selector-ces{
-    max-height: 378px;
-}
-@media (min-width: 576px) and (max-width: 992px){
+
+@media (min-width: 576px) and (max-width: 767px){
     .mensaje-1{
         font-size: 150%;   
+    }
+    .btn{
+        font-size: 28px;
+        letter-spacing: 0.05em;
+        line-height: 32px;
+        padding: 4px 75px 3px 75px;
     }
 }
 @media (max-width: 575px){
     .mensaje-1{
         font-size: 120%; 
+    }
+    .btn{
+        font-size: 24px;
+        letter-spacing: 0.05em;
+        line-height: 28px;
+        padding: 4px 65px 3px 65px;
     }
 }

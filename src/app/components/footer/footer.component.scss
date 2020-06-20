@@ -1,0 +1,63 @@
+@import "../../../shared-styles.scss";
+.container-footer{
+    background-color: $gray-3;
+    padding: 40px 0px;
+    margin-top: 145px;
+
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    line-height: 15.6px;
+    text-align: left;
+    color: $white-1;
+
+}
+.container-footer a{
+    color: $white-1;
+}
+.logo-footer{
+    margin-bottom: 25px;
+}
+.footer-left ul{
+    padding-inline-start: 23px!important;
+}
+.footer-center ul, .footer-right ul {
+    padding-inline-start: 0px!important;
+    list-style-type:none;
+    padding-top: 10px;
+}
+li{
+    margin-bottom: 10px;
+}
+
+li.adress{
+    list-style-image: url("../../../assets/img/address-icon.svg")
+}
+
+li.tel{
+    list-style-image: url("../../../assets/img/phone-icon.svg")
+}
+
+li.email{
+    list-style-image: url("../../../assets/img/email-icon.svg")
+}
+@media (min-width: 576px) and (max-width: 767px)
+{
+    .container-footer{
+        margin-top: 400px;
+    }
+    .footer-left{
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 575px)
+{
+    .container-footer{
+        margin-top: 400px;
+    }
+    .footer-left{
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+}
